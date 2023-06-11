@@ -13,4 +13,6 @@ public interface AddressDao {
 	public void deleteAddress(Address address);
 
 	public Address findAddressById(int addressId);
+
+	public Address getAddress(Address address);
 }
